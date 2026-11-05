@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: syjinxz77/minikube-flask-app:aed01c3
+          image: syjinxz77/minikube-flask-app:1567d05
           ports:
             - containerPort: 5000
           readinessProbe:
